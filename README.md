@@ -18,7 +18,7 @@
 | ファイル | 内容 |
 |----------|------|
 | [`japanese_learning_quiz_prompt.md`](japanese_learning_quiz_prompt.md) | 見出しや表で整形した版。出題前の一意性チェックの結果（`✅ チェック完了：…`）を問題の直前に表示します。 |
-| [`japanese_learning_quiz_prompt.md.md`](japanese_learning_quiz_prompt.md.md) | プレーンテキスト版。一意性チェックは内部でのみ行い、学習者には表示しません。 |
+| [`japanese_learning_quiz_prompt_plain.txt`](japanese_learning_quiz_prompt_plain.txt) | プレーンテキスト版。一意性チェックは内部でのみ行い、学習者には表示しません。 |
 
 授業の様子を見ながら AI の判断過程を確認したい場合は整形版、学習者に問題だけを見せたい場合はプレーンテキスト版がおすすめです。
 
@@ -49,7 +49,7 @@
 5. 会話のきっかけ（Conversation starters）に `start` を登録しておくと便利です
 6. 右上の「作成」から公開範囲（自分のみ／リンクを知っている人）を選んで保存する
 
-同じプロンプトは、Gemini の Gem や Claude のプロジェクトなど、システムプロンプト（カスタム指示）を設定できる他のサービスでも利用できます。
+同じプロンプトは、Gemini の Gem や Claude のプロジェクトなど、システムプロンプト（カスタム指示）を設定できる他のサービスでも利用できます。ただし、動作確認は ChatGPT（GPT-4o）で行っています。一意性チェックの結果表示（`✅ チェック完了：…`）の有無や形式などは、モデルによって異なる場合があります。
 
 ### 3. 学習者の操作
 
